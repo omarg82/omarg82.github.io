@@ -136,7 +136,7 @@ left: 5px;
 }
 
 #contenedor{
-  height: 1050px;
+  height: 680px;
   width: 780px;
   margin-right: auto;
   margin-left: auto;
@@ -300,6 +300,32 @@ footer p{
   padding: 5px;
   color: #fff;
   letter-spacing: 3px
+}
+
+#contenido{
+  float: right;
+  background: #fff;
+  width: 554px;
+  height: 495px;
+  padding: 10px;
+  border: 1px solid #e3e4e4;
+  border-left-width: thin;
+  margin-bottom: 5px;
+}
+
+#contenido ::first-letter{
+  font-size: 30px;
+  font-style: bold;
+}
+
+#contenido img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#contenido p{
+  font: normal 22px 'Angsana';
 }
 
 @font-face{
