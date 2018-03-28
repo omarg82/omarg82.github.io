@@ -293,7 +293,7 @@ text-align: center;
 width: 1050px;
 height: 60px;
 font-family: Arial, Helvetica, sans-serif;
-background-color: #000000;
+background-color: #FFFFFF;
 }
 
 footer p{
@@ -306,9 +306,9 @@ footer p{
 
 #contenido{
   float: right;
-  background: #000000;
-  width: 554px;
-  height: 495px;
+  background: #fff;
+  width: 822px;
+  height: 600px;
   padding: 10px;
   border: 1px solid #e3e4e4;
   border-left-width: thin;
