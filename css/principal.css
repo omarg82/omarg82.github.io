@@ -187,7 +187,7 @@ body{
 #columna {
   float: left;
   width: 180px;
-  height: 497px;
+  height: 600px;
   padding: 10px;
   background: #e8e8e8;
 }
@@ -289,7 +289,7 @@ a {
 
 footer{
   clear: both;
-  background: #F0B429;
+  background: #fff;
   text-align: center;
   width: 1050px;
   height: 60px;
