@@ -6,28 +6,24 @@ header, section, footer, aside, nav, article, figure, figcaption, hgroup{
   border: 0px;
   margin: 0px;
   padding: 0px;
-  font: normal 18px 'Angsana';
+  font: normal 20px 'AngsanaBold';
 }
 
 header{
   background: #FFF;
-  width: 1050px;
+  width: 780px;
   height: 90px;
-  /*overflow: hidden;*/
   position: relative;
 }
 
 #lineasuperior{
   background: #005883;
-  width: 1050px;
+  width: 780px;
   height: 10px;
 }
 
 #menu{
   background:  #005883;
-  /*padding: 3px 350px;*/
-  font: bold 16px 'Angsana';
-  font-style: bold;
   width: 100%;
   height: 40px;
   float: left;
@@ -136,8 +132,8 @@ left: 5px;
 }
 
 #contenedor{
-  height: 900px;
-  width: 1050px;
+  height: 680px;
+  width: 780px;
   margin-right: auto;
   margin-left: auto;
 }
@@ -160,7 +156,7 @@ header h1 h2{
 }
 
 header h1{
-  font: bold 40px 'AngsanaBold';
+  font: bold 30px 'OpenSansBold';
   text-align: right;
   margin: 4px 12px;
   font-style: italic;
@@ -181,13 +177,12 @@ height: 30px;
 
 body{
   background: #FFF;
-  font: normal 20px 'Angsana'
 }
 
 #columna {
   float: left;
   width: 180px;
-  height: 600px;
+  height: 497px;
   padding: 10px;
   background: #e8e8e8;
 }
@@ -196,7 +191,7 @@ body{
   text-align: center;
   font: italic bold 22px Verdana;
   color: #e7b200;
-  /*text-decoration: underline;*/
+  font: bold 30px 'OpenSansItalic';
   letter-spacing: 4px;
 }
 
@@ -205,7 +200,7 @@ body{
 }
 
 #tematicas li a{
-  font: italic bold 16px Verdana;
+  font: bold 18px 'OpenSans';
   color: #666;
   padding: 30px 8px;
   float: left;
@@ -220,8 +215,8 @@ body{
 #bienvenida{
   float: right;
   background: #fff;
-  width: 822px;
-  height: 400px;
+  width: 554px;
+  height: 300px;
   padding: 10px;
   border: 1px solid #e3e4e4;
   border-left-width: thin;
@@ -239,13 +234,13 @@ body{
 }
 
 #bienvenida p{
-  font: normal 22px 'Angsana';
+  font: normal 14px 'Opensans';
 }
 
 #objetivos{
   float: right;
   background: #fff;
-  width: 822px;
+  width: 576px;
   height: 195px;
   padding-top: 5px;
 
@@ -253,32 +248,32 @@ body{
 
 #objetivos #objetivoOVI{
     background: #e8e8e8;
-    width: 411px;
+    width: 285px;
     height: 190px;
     float: left;
 }
 
 #objetivoOVI h1, #objetivoCurso h1{
   text-align: center;
-  font: bold 20px 'AngsanaBold';
+  font: normal 12px 'OpenSansBold';
   padding: 0px;
   margin: 0px;
 }
 
 #objetivoOVI p, #objetivoCurso p{
-  font: 18px 'Angsana';
+  font: 13px 'Opensans';
   text-align: left;
   margin: 3px;
   padding: 1px;
 }
 
 #objetivoOVI ::first-letter, #objetivoCurso ::first-letter{
-  font-size: 28px;
+  font-size: 20px;
 }
 
 #objetivos #objetivoCurso{
     background: #e8e8e8;
-    width: 410px;
+    width: 285px;
     height: 190px;
     float: right;
 }
@@ -290,25 +285,24 @@ a {
 footer{
 clear: both;
 text-align: center;
-width: 1050px;
+width: 780px;
 height: 60px;
-font-family: Arial, Helvetica, sans-serif;
 background-color: #000000;
 }
 
 footer p{
-  font: bold 20px 'AngsanaBold';
+  font: bold 14px 'OpenSans';
   padding: 5px;
   color: #fff;
   letter-spacing: 3px
-	  
+
 }
 
 #contenido{
   float: right;
   background: #FFFFFF;
-  width: 822px;
-  height: 600px;
+  width: 554px;
+  height: 495px;
   padding: 10px;
   border: 1px solid #e3e4e4;
   border-left-width: thin;
@@ -316,7 +310,7 @@ footer p{
 }
 
 #contenido ::first-letter{
-  font-size: 30px;
+  font-size: 20px;
   font-style: bold;
 }
 
@@ -327,7 +321,7 @@ footer p{
 }
 
 #contenido p{
-  font: normal 22px 'Angsana';
+  font: normal 14px 'Opensans';
 }
 
 @font-face{
@@ -342,4 +336,32 @@ footer p{
 	src:url(../fonts/angsab.ttf);
 	font-weight:300;
 	font-style:bold;
+}
+
+@font-face{
+	font-family:'OpenSansBold';
+	src:url(../fonts/OpenSans-Bold.ttf);
+	font-weight:300;
+	font-style:bold;
+}
+
+@font-face{
+	font-family:'OpenSans';
+	src:url(../fonts/OpenSans-Regular.ttf);
+	font-weight:300;
+	font-style:normal;
+}
+
+@font-face{
+	font-family:'OpenSansItalic';
+	src:url(../fonts/OpenSans-Italic.ttf);
+	font-weight:300;
+	font-style:italic;
+}
+
+@font-face{
+	font-family:'OpenSansLight';
+	src:url(../fonts/OpenSans-Light.ttf);
+	font-weight:300;
+	/*font-style:normal;*/
 }
