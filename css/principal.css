@@ -132,7 +132,7 @@ left: 5px;
 }
 
 #contenedor{
-  height: 680px;
+  height: 1024px;
   width: 780px;
   margin-right: auto;
   margin-left: auto;
@@ -141,7 +141,6 @@ left: 5px;
 #logo{
   width: 30%;
   height: 95px;
-  /* background: #FFF; */
   float:left;
   margin: 5px 190px 5px 15px;
   background: url(../images/logoUNAD2.png)
@@ -182,7 +181,7 @@ body{
 #columna {
   float: left;
   width: 180px;
-  height: 497px;
+  height: 760px;
   padding: 10px;
   background: #e8e8e8;
 }
@@ -216,13 +215,17 @@ body{
   float: right;
   background: #fff;
   width: 554px;
-  height: 300px;
+  height: 560px;
   padding: 10px;
   border: 1px solid #e3e4e4;
   border-left-width: thin;
 }
 
-#bienvenida ::first-letter{
+#bienvenida p{
+  font: normal 14px 'Opensans';
+}
+
+#bienvenida p::first-letter{
   font-size: 30px;
   font-style: bold;
 }
@@ -233,17 +236,12 @@ body{
   margin-right: auto;
 }
 
-#bienvenida p{
-  font: normal 14px 'Opensans';
-}
-
 #objetivos{
   float: right;
   background: #fff;
   width: 576px;
   height: 195px;
   padding-top: 5px;
-
 }
 
 #objetivos #objetivoOVI{
@@ -263,8 +261,9 @@ body{
 #objetivoOVI p, #objetivoCurso p{
   font: 13px 'Opensans';
   text-align: left;
-  margin: 3px;
+  margin: 7px 5px;
   padding: 1px;
+
 }
 
 #objetivoOVI ::first-letter, #objetivoCurso ::first-letter{
@@ -272,15 +271,18 @@ body{
 }
 
 #objetivos #objetivoCurso{
-    background: #e8e8e8;
-    width: 285px;
-    height: 190px;
-    float: right;
+  background: #e8e8e8;
+  width: 285px;
+  height: 190px;
+  float: right;
 }
 
-a {
-    color: white;
+/*a {
+  color: white;
 }
+*/
+
+
 
 footer{
 clear: both;
@@ -295,22 +297,21 @@ footer p{
   padding: 5px;
   color: #fff;
   letter-spacing: 3px
-
 }
 
 #contenido{
   float: right;
   background: #FFFFFF;
   width: 554px;
-  height: 495px;
+  height: 558px;
   padding: 10px;
   border: 1px solid #e3e4e4;
   border-left-width: thin;
   margin-bottom: 5px;
 }
 
-#contenido ::first-letter{
-  font-size: 20px;
+#contenido p::first-letter{
+  font-size: 30px;
   font-style: bold;
 }
 
@@ -321,6 +322,10 @@ footer p{
 }
 
 #contenido p{
+  font: normal 14px 'Opensans';
+}
+
+#contenido a{
   font: normal 14px 'Opensans';
 }
 
