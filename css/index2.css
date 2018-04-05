@@ -1,0 +1,369 @@
+header, section, footer, aside, nav, article, figure, figcaption, hgroup{
+  display: block;
+}
+
+*{
+  border: 0px;
+  margin: 0px;
+  padding: 0px;
+  font: normal 20px 'AngsanaBold';
+}
+
+header{
+  background: #FFF;
+  width: 780px;
+  height: 90px;
+  position: relative;
+}
+
+#lineasuperior{
+  background: #005883;
+  width: 780px;
+  height: 10px;
+}
+
+#menu{
+	width: 100%;
+	height: 40px;
+	float: left;
+	position: relative;
+	background-color: #003366;
+}
+
+#menu .menuprincipal{
+  width: 780px;
+  height: 35px;
+  margin: 0 auto;
+  padding: 0px;
+}
+
+#menu li {
+  float:left;
+  position:relative;
+  padding: 6px;
+  margin: 0;
+  list-style: none;
+}
+
+#menu li a{
+	color:#FFFFFF;
+	font-size:20px;
+	padding: 10px 10px;
+	/* text-shadow: 0px -1px 0px #000; */
+text-decoration: none;
+	text-transform: uppercase;
+	background-color: #003366;
+}
+
+#menu li > ul{
+	display:none;
+	position:absolute;
+	padding: 0px;
+	z-index: 2;
+	background-color: #FFFFFF;
+}
+
+#menu li > ul li{
+	padding:0px;
+	margin:1px 0;
+	list-style: none;
+	background-color: #003366;
+}
+
+#menu li > ul li:first-child, #menu li:hover > ul li:last-child{
+padding:0;
+margin:0 0;
+}
+
+#menu li:hover > a{
+color:#0099CC;
+/*background-color: #424242;*/
+width: 120px;
+}
+
+#menu li > ul li a{
+width: 150px;
+margin: 0 0 0 5px;
+display:block;
+color: #e7b200;
+}
+
+#menu li:hover > ul{
+display:block;
+width: 300px;
+top: 40px;
+ }
+
+#menu .divider{
+border-right: 1px solid #B3B3B3;
+height: 28px;
+}
+
+#menu .dropdown::after{
+content:"";
+position: relative;
+top: 15px;
+/*left: 52px;*/
+width:0px;
+height:0px;
+border-style: solid;
+/*border-width: 4.3px;*/
+border-bottom-width:0px;
+border-color: #B3B3B3 transparent transparent transparent;
+}
+
+#menu li:hover::after{
+border-color: #fff transparent transparent transparent;
+}
+
+hr{
+margin: 0;
+padding: 0;
+width: 80%;
+position: relative;
+border-color: rgba(189, 189, 189, 0.6);
+left: 10px;
+}
+
+#menu .dropdown span{
+height: 15px;
+width: 3px;
+position: absolute;
+top: 6px;
+left: 5px;
+}
+
+#contenedor{
+  height: 680px;
+  width: 780px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+#logo{
+  width: 30%;
+  height: 95px;
+  /* background: #FFF; */
+  float:left;
+  margin: 5px 190px 5px 15px;
+  background: url(../images/logoUNAD2.png)
+  no-repeat;
+}
+
+header h1 h2{
+  width: 30%;
+  float: right;
+  height: 30px;
+  margin: 8px;
+}
+
+header h1{
+  font: bold 30px 'OpenSansBold';
+  text-align: right;
+  margin: 4px 12px;
+  font-style: italic;
+  color: #F0B429;
+}
+
+header h2{
+  font: bold 18px 'AngsanaBold';
+  font-style: italic;
+  float: right;
+  margin: 4px 12px;
+}
+
+nav principal{
+width: 780%;
+height: 30px;
+}
+
+body{
+  background: #FFF;
+}
+
+#columna {
+  float: left;
+  width: 180px;
+  height: 497px;
+  padding: 10px;
+  background: #e8e8e8;
+}
+
+#columna h1 {
+  text-align: center;
+  font: italic bold 22px Verdana;
+  color: #e7b200;
+  font: bold 30px 'OpenSansItalic';
+  letter-spacing: 4px;
+}
+
+#tematicas li{
+  list-style: none;
+}
+
+#tematicas li a{
+  font: bold 18px 'OpenSans';
+  color: #666;
+  padding: 30px 8px;
+  float: left;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+#tematicas li:hover > a{
+  text-decoration: underline;
+}
+
+#bienvenida{
+  float: right;
+  background: #fff;
+  width: 758px;
+  height: 490px;
+  padding: 10px;
+  border: 1px solid #e3e4e4;
+  border-left-width: thin;
+}
+
+#bienvenida ::first-letter{
+  font-size: 30px;
+  font-style: bold;
+}
+
+#bienvenida img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#bienvenida p{
+  font: normal 14px 'Opensans';
+}
+
+#objetivos{
+  float: right;
+  background: #fff;
+  width: 576px;
+  height: 195px;
+  padding-top: 5px;
+
+}
+
+#objetivos #objetivoOVI{
+    background: #e8e8e8;
+    width: 285px;
+    height: 190px;
+    float: left;
+}
+
+#objetivoOVI h1, #objetivoCurso h1{
+  text-align: center;
+  font: normal 12px 'OpenSansBold';
+  padding: 0px;
+  margin: 0px;
+}
+
+#objetivoOVI p, #objetivoCurso p{
+  font: 13px 'Opensans';
+  text-align: left;
+  margin: 3px;
+  padding: 1px;
+}
+
+#objetivoOVI ::first-letter, #objetivoCurso ::first-letter{
+  font-size: 20px;
+}
+
+#objetivos #objetivoCurso{
+    background: #e8e8e8;
+    width: 285px;
+    height: 190px;
+    float: right;
+}
+
+a {
+    color: white;
+}
+
+footer{
+clear: both;
+text-align: center;
+width: 780px;
+height: 60px;
+background-color: #000000;
+}
+
+footer p{
+  font: bold 14px 'OpenSans';
+  padding: 5px;
+  color: #fff;
+  letter-spacing: 3px
+
+}
+
+#contenido{
+  float: left;
+  background: #FFFFFF;
+  width: 554px;
+  height: 495px;
+  padding: 10px;
+  border: 1px solid #e3e4e4;
+  border-left-width: thin;
+  margin-bottom: 5px;
+}
+
+#contenido ::first-letter{
+  font-size: 20px;
+  font-style: bold;
+}
+
+#contenido img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#contenido p{
+  font: normal 14px 'Opensans';
+}
+
+@font-face{
+	font-family:'Angsana';
+	src:url(../fonts/angsa.ttf);
+	font-weight:300;
+	font-style:normal;
+}
+
+@font-face{
+	font-family:'AngsanaBold';
+	src:url(../fonts/angsab.ttf);
+	font-weight:300;
+	font-style:bold;
+}
+
+@font-face{
+	font-family:'OpenSansBold';
+	src:url(../fonts/OpenSans-Bold.ttf);
+	font-weight:300;
+	font-style:bold;
+}
+
+@font-face{
+	font-family:'OpenSans';
+	src:url(../fonts/OpenSans-Regular.ttf);
+	font-weight:300;
+	font-style:normal;
+}
+
+@font-face{
+	font-family:'OpenSansItalic';
+	src:url(../fonts/OpenSans-Italic.ttf);
+	font-weight:300;
+	font-style:italic;
+}
+
+@font-face{
+	font-family:'OpenSansLight';
+	src:url(../fonts/OpenSans-Light.ttf);
+	font-weight:300;
+	/*font-style:normal;*/
+}
