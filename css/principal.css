@@ -191,7 +191,6 @@ body{
 
 #columna h1 {
   text-align: center;
-  font: italic bold 22px Verdana;
   color: #e7b200;
   font: bold 30px 'OpenSansItalic';
   letter-spacing: 4px;
@@ -204,7 +203,7 @@ body{
 #tematicas li a{
   font: bold 18px 'OpenSans';
   color: #666;
-  padding: 30px 8px;
+  padding: 20px 8px;
   float: left;
   text-decoration: none;
   text-transform: uppercase;
