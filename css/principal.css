@@ -184,7 +184,7 @@ body{
 #columna {
   float: left;
   width: 180px;
-  height: 760px;
+  height: 758px;
   padding: 10px;
   background: #e8e8e8;
 }
@@ -203,7 +203,7 @@ body{
 #tematicas li a{
   font: bold 18px 'OpenSans';
   color: #666;
-  padding: 20px 8px;
+  padding: 10px 8px;
   float: left;
   text-decoration: none;
   text-transform: uppercase;
@@ -310,23 +310,70 @@ footer p{
   margin-bottom: 5px;
 }
 
-#contenido p::first-letter{
+#contenido p::first-letter {
   font-size: 30px;
   font-style: bold;
 }
 
-#contenido img{
+#contenidoAutores p::first-letter ,#contenidoAutores h2::first-letter{
+  font-size: 20px;
+  font-style: bold;
+}
+
+#contenido img, #contenidoAutores img{
   display: block;
   margin-left: auto;
   margin-right: auto;
 }
 
-#contenido p{
+#contenido p, #contenidoAutores p{
   font: normal 14px 'Opensans';
+}
+
+#contenidoAutores h2{
+  text-align: center;
+  font: bold 14px 'Opensans';
+}
+
+#autor1 p, #autor2 p, #autor3 p, #autor4 p{
+  font: normal 12px 'Opensans';
 }
 
 #contenido a{
   font: normal 14px 'Opensans';
+}
+
+#contenidoAutores{
+  float: left;
+  background: #FFFFFF;
+  width: 758px;
+  height: 800px;
+  padding: 10px;
+  border: 1px solid #e3e4e4;
+  border-left-width: thin;
+  margin-bottom: 5px;
+}
+
+#autor1, #autor2, #autor3, #autor4{
+  display: block;
+  float: left;
+  height: 250px;
+  width: 350px;
+  background: #e8e8e8;
+  padding: 5px;
+  margin: 2px 10px 2px 2px;
+  border-radius: 10px 10px 10px 10px;
+  -moz-border-radius: 10px 10px 10px 10px;
+  -webkit-border-radius: 10px 10px 10px 10px;
+  border: 2px solid #005883;
+}
+
+
+
+#autor1 img, #autor2 img, #autor3 img, #autor4 img{
+  height: 100px;
+  width: 100px;
+  border-radius: 50px;
 }
 
 @font-face{
